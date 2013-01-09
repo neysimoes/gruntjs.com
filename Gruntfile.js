@@ -14,7 +14,7 @@ module.exports = function(grunt) {
           'js/vendor/jquery.js',
           'js/vendor/lodash.js',
           'js/vendor/jquery.timeago.js',
-          'js/vendor/list.min.js',
+          'js/vendor/list.js',
           'js/main.js',
         ]
       }
