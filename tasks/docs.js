@@ -41,9 +41,10 @@ module.exports = function (grunt) {
         var names = grunt.file.expand({cwd:base}, ['*', '!Blog-*', '!grunt*.md', '!*.js']);
 
         sidebars[0] = getSidebarSection('## Documentation', 'icon-document-alt-stroke');
-        sidebars[1] = getSidebarSection('### Advanced');
-        sidebars[2] = getSidebarSection('### Community');
-        sidebars[3] = getSidebarSection('### Migration guides');
+        sidebars[1] = getSidebarSection('### Guides');
+        sidebars[2] = getSidebarSection('### Advanced');
+        sidebars[3] = getSidebarSection('### Community');
+        sidebars[4] = getSidebarSection('### Migration guides');
 
         names.forEach(function (name) {
 
@@ -170,7 +171,7 @@ module.exports = function (grunt) {
         anchors: true,
         base: '/',
         pedantic:false,
-        sanitize:true,
+        sanitize:false,
         // callback for code highlighter
         highlight: function(code, lang) {
           // No language specified, no syntax highlighting.

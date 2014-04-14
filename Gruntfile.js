@@ -50,7 +50,7 @@ module.exports = function(grunt) {
         tasks: ['default']
       },
       docs: {
-        files: 'grunt-docs/**',
+        files: 'node_modules/grunt-docs/**',
         tasks: ['default']
       }
     },
