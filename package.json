@@ -32,7 +32,7 @@
     "grunt-contrib-jade": "~0.5.1",
     "marked": "https://github.com/vladikoff/marked/tarball/master",
     "highlight.js": "~7.3.0",
-    "lodash": "~1.0.1",
+    "lodash": "~4.17.19",
     "request": "~2.27.0",
     "jade": "~0.35.0",
     "date-utils": "~1.2.14",
